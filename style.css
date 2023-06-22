@@ -6,6 +6,7 @@
 }
 body{
     background-color: black;
+    font-family: roboto;
 }
 
 
@@ -113,6 +114,30 @@ section{
     width: 150px;
     height: 150px;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 
+}
+.testimony{
+    display: flex;
+    gap:40px;
+    background-color: #E5E7EB;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+    padding-left: 120px;
+    padding-right: 150px;
+    width: 1400px;
+    height: 500px;
+
+}
+.autor-pic{
+    height: 200px;
+    padding-top: 20px;
+}
+.comment{
+    font-size: 36px;
+    color: #1F2937;
+}
+.autor{
+    text-align: center;
 }
