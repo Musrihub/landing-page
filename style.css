@@ -43,6 +43,11 @@ ul a{
     font-size: 18px;
     color: #E5E7EB; 
 }
+ul a:hover{
+    color:orangered
+}
+
+
 .description{
     margin-top: 40px;
     display: flex;
@@ -127,7 +132,7 @@ section{
     padding-left: 120px;
     padding-right: 150px;
     width: 1400px;
-    height: 500px;
+    height: 300px;
 
 }
 .autor-pic{
@@ -140,4 +145,44 @@ section{
 }
 .autor{
     text-align: center;
+}
+.signup{
+    background-color: white;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+    padding-left: 180px;
+    padding-right: 150px;
+    width: 1400px;
+    height: 200px;
+   
+}
+.signup-to-call{
+    background-color: rgb(88, 88, 238);
+    padding: 20px;
+    margin-top: 30px;
+    width: 1000px;
+    height: 120px;
+    border-radius: 8px;
+ padding-left: 180px;
+}
+.signup-product{
+    display: inline;
+    margin-right: 100px;
+    color: rgb(248, 237, 237);
+    font-size: 18px;
+}
+.signup-btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding:3px 15px 3px 15px;
+    background-color:  rgb(88, 88, 238);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border:2px solid white;
+    
+}
+.call-action{
+    color: white;
+    font-size: 24px;
 }
