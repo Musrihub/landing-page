@@ -48,6 +48,13 @@ ul a:hover{
 }
 
 
+.header-title{
+    margin-bottom: 10px;
+}
+.difference{
+    margin-bottom: 10px;
+}
+
 .description{
     margin-top: 40px;
     display: flex;
@@ -135,6 +142,9 @@ section{
     height: 300px;
 
 }
+.comment-msg{
+    font-size: 32px;
+}
 .autor-pic{
     height: 200px;
     padding-top: 20px;
@@ -180,9 +190,24 @@ section{
     color: rgb(255, 255, 255);
     border-radius: 5px;
     border:2px solid white;
+    cursor: pointer;
     
 }
 .call-action{
     color: white;
     font-size: 24px;
+}
+footer{
+    background-color:#1F2937; 
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 100px;
+    margin-right: 70px;
+    padding-left: 100px;
+    padding-right: 150px;
+    width: 1400px;
+    height: 100px;
+
 }
