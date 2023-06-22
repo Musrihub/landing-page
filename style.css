@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+body{
+    background-color: black;
+}
+
+
+.header{
+    background-color: #1F2937;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 70px;
+    padding-left: 100px;
+    padding-right: 150px;
+    width: 1400px;
+    height: 450px;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    float: left;
+}
+ul{
+    display:flex;
+    justify-content: center;
+}
+ul li{
+    float: left;
+    list-style: none;
+    justify-content: center;
+    justify-items: center;
+    justify-items: center;
+    margin-left: 60px;
+ 
+}
+ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+.description{
+    margin-top: 40px;
+    display: flex;
+}
+
+.header-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-top: 40px;
+    line-height: 1;
+  
+}
+.difference{
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+.description-details{
+    width: 500px;
+    height: 300px;
+}
+.office{
+    width: 500px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.action{
+    font-size:16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+}
