@@ -20,14 +20,21 @@ body{
     width: 1400px;
     height: 450px;
 }
+.navbar{
+    position: fixed;
+ 
+}
 .logo{
     font-size: 24px;
     color: #F9FAF8;
     float: left;
+    margin-right: 700px;
+   
 }
 ul{
     display:flex;
     justify-content: center;
+   gap: 40px;
 }
 ul li{
     float: left;
@@ -42,6 +49,8 @@ ul a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB; 
+   
+    
 }
 ul a:hover{
     color:orangered
@@ -82,6 +91,7 @@ ul a:hover{
     height: 250px;
     margin-left: 40px;
     margin-top: 50px;
+    position: relative;
 }
 .action{
     font-size:16px;
@@ -110,7 +120,9 @@ section{
     padding-left: 100px;
     padding-right: 150px;
     width: 1400px;
-    height: 500px;
+    height: 550px;
+    
+    
 
 }
   
@@ -136,7 +148,7 @@ section{
     padding-top: 20px;
     margin-left: 100px;
     margin-right: 70px;
-    padding-left: 120px;
+    padding-left: 180px;
     padding-right: 150px;
     width: 1400px;
     height: 300px;
@@ -196,6 +208,18 @@ section{
 .call-action{
     color: white;
     font-size: 24px;
+}
+.sale{
+    font-size: 18px;
+    background-color: rgb(175, 20, 20);
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    right: 303px;
+    top: 96px;
+    text-transform: uppercase;
 }
 footer{
     background-color:#1F2937; 
