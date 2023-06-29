@@ -222,18 +222,20 @@ section{
     right: 303px;
     top: 96px;
     text-transform: uppercase;
+    
 }
 footer{
     background-color:#1F2937; 
     font-size: 18px;
     color: white;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-left: 100px;
     margin-right: 70px;
     padding-left: 100px;
     padding-right: 150px;
     width: 1400px;
-    height: 100px;
+    height: 60px;
 
 }
+
